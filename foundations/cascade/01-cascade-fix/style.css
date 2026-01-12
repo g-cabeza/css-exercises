@@ -17,26 +17,37 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+/*The following class was created to fix the second line of the html */
+.para.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+/*----------------------------------------------------------------- */
+
+/*The following ID was created by modifiying the existing class .confirm to fix the first button of the html */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
 } 
+/*----------------------------------------------------------------- */
 
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-
-.child {
+/*The following class was created by modifiying the existing class .child by adding div.text to fix the last line of the html */
+div.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
+/*----------------------------------------------------------------- */
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+
