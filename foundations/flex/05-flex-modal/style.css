@@ -69,20 +69,40 @@ button.cancel {
 }
 
 /* Solution under this line */
+/* This universal selector is a way of detecting the divs in the browser for debugging
 
 *{
   border: 1px solid red;
 }
 
+*/
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: large;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+
 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  padding: 10px;
-  align-items: center;
+}
 
+.icon{
+  flex-shrink: 0;
+  margin: 10px;
 }
 
 .text {
-  padding: 10px;
+  margin-bottom: 10px;
 }
