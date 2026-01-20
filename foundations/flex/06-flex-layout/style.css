@@ -24,3 +24,74 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/*Solution under this line */
+
+/* Universal red border for divs used for debugging */
+/*
+*{
+  border: 1px solid red;
+}
+*/
+/*Header affecting classes */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+
+.right-links , .left-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+/*link affecting classes */
+
+a {
+  color: grey;
+  text-decoration: none;
+
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+/* Main body affecting classes */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+button {
+  padding: 10px;
+
+}
+
+/* Footer affecting Classes */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #eeeeee;
+}
